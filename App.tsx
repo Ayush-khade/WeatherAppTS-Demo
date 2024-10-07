@@ -8,7 +8,7 @@ import styles from './src/components/Styles';
 type EnterCountryProps = NativeStackScreenProps<RootStackParamList, "EnterCountry">;
 
 const EnterCountry: React.FC<EnterCountryProps> = ({ route, navigation }: props) => {
-  
+  console.log("OK")
   const [text, onChangeText] = React.useState("");
   const [fill, onFill] = React.useState(true);
 
